@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { ThemeProviderWrapper } from "@/context/ThemeContext";
 import { ThemeProvider } from "next-themes"
