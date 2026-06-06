@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
 
           {/* CENTERED CONTENT SYSTEM */}
           <main className="min-h-screen">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-15">
               {children}
             </div>
           </main>

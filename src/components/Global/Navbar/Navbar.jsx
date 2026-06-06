@@ -6,8 +6,8 @@ import AuthButton from "./AuthButton";
 
 const Navbar = () => {
   return (
-    <Container>
-      <div className="border-b border-[var(--border)] bg-[var(--background)] text-[var(--foreground)]">
+    <div className="fixed top-0 left-0 right-0 z-50 border-b border-[var(--border)] bg-[var(--background)]/80 backdrop-blur-md text-[var(--foreground)]">
+      <Container>
         <div className="flex items-center justify-between py-3">
           {/* Logo */}
           <Logo />
@@ -62,8 +62,8 @@ const Navbar = () => {
             </details>
           </div>
         </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };
 
