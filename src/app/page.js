@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero/Hero'
+import ServiceSection from '@/components/serviceSection/ServiceSection'
 import React from 'react'
 
 const page = () => {
@@ -6,6 +7,7 @@ const page = () => {
     <div>
       <main>
         <Hero/>
+        <ServiceSection/>
       </main>
     </div>
   )
